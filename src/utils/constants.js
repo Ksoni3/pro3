@@ -21,8 +21,7 @@ export const categories = [
     { name: "Sports", icon: <GiDiamondTrophy />, type: "category" },
     { name: "Learning", icon: <RiLightbulbLine />, type: "category" },
     {
-        name: "Fashion & beauty",
-        icon: <GiEclipse />,
+        name: "Fashion & beauty", icon: <GiEclipse />,
         type: "category",
         divider: true,
     },

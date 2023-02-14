@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.custom-h{
+    background-color: black;
+}
+
+
+/* 
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -73,4 +80,4 @@ code {
     .custom-h {
         height: 100vh !important;
     }
-}
+} */

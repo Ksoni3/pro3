@@ -22,7 +22,7 @@ export const AppContext = (props) => {
         fetchDataFromApi(`search/?q=${query}`)
         .then((res) => {
         console.log(res.contents);
-        // setSearchResults(contents);
+        setSearchResults(res.contents);
         setLoading(false);
         });
     };
